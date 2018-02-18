@@ -20,6 +20,7 @@ Build-Depends:	debhelper (>= 8),
 		libcurl4-gnutls-dev,
 		bison,
 		python-docutils, 
+		 libgcrypt11-dev,
 	        liblogging-stdlog-dev
 #	        libjemalloc-dev
 Standards-Version: 3.9.4
