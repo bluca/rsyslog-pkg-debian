@@ -18,14 +18,11 @@ endif
 override_dh_auto_configure:
 	dh_auto_configure -- \
 		$(confflags) \
-		--enable-mysql \
 		--enable-pgsql \
 		--enable-ommongodb \
 		--enable-mail \
 		--enable-imfile \
 		--enable-impstats \
-		--enable-klog \
-		--enable-gnutls \
 		--enable-relp \
 		--enable-pmaixforwardedfrom \
 		--enable-pmcisconames \
